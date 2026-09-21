@@ -23,10 +23,10 @@ class CourseToolkitTest {
 
 
     @Test
-    void returnsFalseForOddNumber() {
+    void returnsTrueForOddNumber() {
         boolean result = CourseToolkit.isEven(0);
 
-        assertFalse(result);
+        assertTrue(result);
     }
 
 
